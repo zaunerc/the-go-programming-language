@@ -1,0 +1,11 @@
+*.wasm
+*.exe
+
+# actual binaries
+main
+main-*-amd64
+server
+snooop-semanteer-testtool
+
+# sub-repos
+**/*_go_get_with_vendoring/vendor/
